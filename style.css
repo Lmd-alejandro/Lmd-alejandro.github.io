@@ -1,0 +1,341 @@
+body 
+{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;
+    
+}
+
+
+.container 
+{
+    align-items: center;
+    text-align: center  ;
+    background-color: black;
+    margin: 10px 0 0 0 ;
+    width: 100%;
+}
+
+
+.wapper-container 
+{
+    height: 100%; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+.ctn_image_profile {
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.image-profile 
+{
+    border: 3px solid #121212;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 28%;
+    border-radius: 100px ;
+}
+
+.child 
+{
+    color: black;
+    transition: 1s;
+}
+
+.tittle-profile 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Comic Neue', cursive;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 51px;
+   
+}
+
+.child2 
+{
+    display: flex;
+    position: relative;
+}
+  
+
+.tittle-profile2 
+{
+    color: #ffffff;
+    position: absolute;
+    margin: -118px 0 0 -95px;
+    font-family: 'Comic Neue', cursive;
+    margin-top: -138px;
+    font-size: 50px;
+}  
+
+
+.whatsapp-linkedin
+{
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+
+.logo-linkedin
+{ 
+    width: 40px;
+
+}
+
+
+.logo-linkedin:hover
+{
+    transform: scale(1.2);
+    transition: all 0.1s ease-out;
+}
+
+
+.WhatsApp_icon
+{
+    width: 40px;
+    
+}
+
+
+.WhatsApp_icon:hover
+{
+    transform: scale(1.2);
+    transition: all 0.1s ease-out;
+}
+
+
+.ctn-paragraph 
+{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+
+.paragraph-description
+{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+ 
+
+.Container2
+{
+    padding: 40px;
+    background-color: gray;
+    border-radius: 70px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.Skills_Tools
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+
+.Container3
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 0px 0px 50px 0;
+}
+
+
+.Container_Img img
+{
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.Container_Img h3
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+.Container_Img p
+{
+    color: #ffffff;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+.icon-tabler 
+{
+    margin: 0 auto;
+    display: block;
+}
+
+.portafolio-inf__education
+{
+    width: 50%;
+    margin: 0 30px;
+    max-height: 700px;
+    overflow: hidden;
+    overflow-y: scroll;
+    color: #ffffff;
+    
+}
+
+
+.portafolio-inf__education h2
+{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+.Education img 
+{
+    width: 15%;
+}
+
+
+.Education p
+{
+    color: #ffffff;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 24px;
+}
+
+.Education
+{
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+    
+}
+
+.portafolio-inf__experience
+{
+    
+    width: 50%;
+    margin: 0 30px;
+    max-height: 700px;
+    overflow: hidden;
+    overflow-y: scroll;
+    color: #ffffff;
+    
+}
+
+
+.portafolio-inf__experience h2
+{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.Experience
+{
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+    
+}
+
+
+.Experience img
+{
+    width: 15%;
+}
+
+
+.Experience p 
+{
+    color: #ffffff;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 24px;   
+}
+
+
+.portafolio-inf__education::-webkit-scrollbar, 
+.portafolio-inf__experience::-webkit-scrollbar
+{
+    width: 8px;
+    border-right: 2px solid var(--color-bginf);
+}
+
+.portafolio-inf__education::-webkit-scrollbar-thumb, 
+.portafolio-inf__experience::-webkit-scrollbar-thumb
+{
+    border-radius: 70px;
+    background: rgba(20, 20, 20, 0.2);
+    border-right: 2px solid var(--color-bginf);
+}
+
+.portafolio-inf__education::-webkit-scrollbar-thumb:hover, 
+.portafolio-inf__experience::-webkit-scrollbar-thumb:hover
+{
+    
+    background: rgba(20, 20, 20, 0.2);
+    border-right: 2px solid var(--color-bginf);
+
+}
+
+.portafolio-inf__exp
+{
+    display: flex;
+    background-color: rgb(173, 171, 171);
+    border-radius: 34px;
+    padding: 70px 0 0;
+}
+
+.Experience_tittle h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -500px -60px 0 ;
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px
+}
+
+
+.Education_tittle h3 {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0px 500px -36px 0;
+font-family: 'Comic Neue', cursive;
+font-size: 30px
+}
